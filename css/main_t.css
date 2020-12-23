@@ -7,6 +7,17 @@
   font-size: 52px;
   margin: 80px 0 36px; }
 
+/* modal */
+.modal .modal_content {
+  margin: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+  .modal .modal_content img {
+    width: 100%; }
+
 /* sub */
 .wrap .mtitle img {
   width: 40%; }
