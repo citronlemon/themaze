@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width initial scale 1.0">
+      
+       <title>rune maze</title>
+      
+       <link rel="stylesheet" href="css/main.css">
+       <link rel="stylesheet" href="css/main_t.css" media="only all and (max-width:1274px)">
+       <link rel="stylesheet" href="css/main_m.css" media="only all and (max-width:600px)">
+       <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+            
+<!--[if lt IE 9]-->
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<!--[endif]-->  
+  
+  <script>
+function doSomething() {
+    // alert(document.forms[0].elements['name'].value);
+    var url = document.forms[0].elements['name'].value;
+    window.location = url;
+    return false;
+}
+</script>
+   
+    </head>
+    
+    <body>
+        
+      <div class="snowflakes" aria-hidden="true">
+        <div class="snowflake">
+        ❅
+        </div>
+        <div class="snowflake">
+        ❅
+        </div>
+        <div class="snowflake">
+        ❆
+        </div>
+        <div class="snowflake">
+        ❄
+        </div>
+        <div class="snowflake">
+        ❅
+        </div>
+        <div class="snowflake">
+        ❆
+        </div>
+        <div class="snowflake">
+        ❄
+        </div>
+        <div class="snowflake">
+        ❅
+        </div>
+        <div class="snowflake">
+        ❆
+        </div>
+        <div class="snowflake">
+        ❄
+        </div>
+        <div class="snowflake">
+        ❄
+        </div>
+        <div class="snowflake">
+        ❄
+        </div>
+      </div>
+
+       <div class="cell_wrap">
+           <div class="cell">
+            
+            
+
+
+             <div class="wrap">
+               <p class="mtitle"><img src="images/mt01.png" alt="수수께끼 저택 탐사"></p>
+               <img class="mimg" src="images/m01.jpg" alt="수수께끼 저택 탐사">
+               
+                 <p class="text">
+                  
+                막시민과 이스핀은 오토마톤을 찾기 위하여 수수께끼 저택의 정문 앞에 도착했다. 
+                <span>이때, 이스핀이 빠른 탐색을 위해 걸음을 최소화하자는 의견을 내면서</span>
+                <span>미리 준비해온 '저택 1층 도면'을 보여주었다.</span>
+                <span>이동 범위를 최소화하면서 1층의 모든 방을 탐색하고</span>
+                <span>2층으로 올라가기 위해서는 어떤 문을 가장 먼저 열어야 할까?</span><br>
+                (단, 충분한 탐색을 위해서는 해당 방을 절반 이상 이동 해야만 한다.)<br>
+                (해당하는 문의 이름에 '-문'을 붙여주세요/ex. A문)
+                  </p>
+
+                  <p class="secret s01">요</p>
+
+                <!-- 정문 -->
+             </div>
+              
+
+             <form onsubmit="return doSomething();" class="my-form">
+               <input type="text" name="name">
+               <input type="submit" value="정답입력" class="sub_btn">
+             </form>
+              
+             <div id="footer">
+              <p>* 본 합작에 제출된 모든 제출품의 저작권은 원작자에게 있으며,  편집에 사용된 소스는 모두 프리 소스를 사용하였음을 밝힙니다.</p>
+              <p>Copyright 2020 . the maze . All rights reserved</p>
+            </div>
+
+           </div>
+           
+           
+           
+        </div>
+       
+    </body>    
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

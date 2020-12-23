@@ -1,0 +1,44 @@
+/* main */
+.cell_wrap {
+  width: 90%;
+  margin: 0 5%; }
+
+.title {
+  width: 90%;
+  margin: 0 5%; }
+  .title .b_title {
+    font-size: 32px;
+    margin: 112px 0 8px; }
+  .title .s_title {
+    margin-top: 20px;
+    font-size: 14px; }
+
+.start li {
+  width: 24%;
+  height: auto;
+  font-size: 14px;
+  margin: 0 4px;
+  line-height: 26px; }
+  .start li .start_a {
+    font-size: 14px; }
+
+#footer {
+  padding: 0 20px; }
+
+/* sub */
+.wrap {
+  padding: 60px 12px; }
+  .wrap .mtitle img {
+    width: 80%; }
+  .wrap .mimg {
+    width: 100%; }
+  .wrap .limg {
+    width: 80%; }
+
+@media (max-width: 822px) {
+  .text {
+    padding: 0 10px; }
+    .text span {
+      display: inline; } }
+
+/*# sourceMappingURL=main_m.css.map */
